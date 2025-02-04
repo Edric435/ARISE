@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.question-container {
+    display: none;
+}
+
+.question-container.active {
+    display: block;
+}
+
+img {
+    width: 100%; /* Ensure image is responsive */
+    height: auto;
+    margin-top: 10px;
+    object-fit: contain; /* Ensure the image does not get distorted */
+}
+
+.error-message {
+    color: red;
+    display: none;
+}
+
+.image-container {
+    display: none;
+}
